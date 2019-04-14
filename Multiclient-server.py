@@ -47,7 +47,7 @@ def accept_connections():       # Accept multiple clients
 
 def start_control():
     while True:
-        print("\nlist: Lists all the connections\nselect x: Selects x-th connection from the list\nexit: Exits the program")
+        print("\nlist: Lists all the connections\nselect x: Selects x-th connection from the list\n")
         cmd = input('Multi-Client-Server>')
         if cmd == 'list':
             list_connections()
